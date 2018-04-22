@@ -56,19 +56,27 @@
   </div>
    
   <div class="contact">
-    <form>
+    <form class="contact-form">
       <fieldset>
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name">
+        <div class="name">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name">
+        </div>
 
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email">
+        <div class="email">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+        </div>
 
-        <label for="notes">Notes</label>
-        <textarea name="notes" id="notes" cols="30" rows="10"></textarea>
+        <div class="notes">
+          <label for="notes">Notes</label>
+          <textarea name="notes" id="notes" cols="30" rows="10"></textarea>
+        </div>
 
-        <label>Send</label>
-        <input type="submit" value="Send">
+        <div class="send">
+          <label>Send</label>
+          <input type="submit" value="Send">
+        </div>
       </fieldset>
     </form>
   </div>
