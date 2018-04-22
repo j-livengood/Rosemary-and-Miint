@@ -69,6 +69,31 @@ div {
   object-position: right bottom;
 }
 
+.one {
+  background: url(../images/mobile/glutenfreepie2web.gif) center center no-repeat;
+  background-size: cover;
+}
+
+.two {
+  background: url(../images/mobile/glutenfreepie1web.gif) center center no-repeat;
+  background-size: cover;
+}
+
+.three {
+  background: url(../images/mobile/bloodorangebundt1web.gif) center center no-repeat;
+  background-size: cover;
+}
+
+.four {
+  background: url(../images/mobile/bloodorangecocktailweb.gif) center center no-repeat;
+  background-size: cover;
+}
+
+.five {
+  background: url(../images/mobile/donuts1web.gif) center center no-repeat;
+  background-size: cover;
+}
+
 
 
 /* ----- Contact ----- */
