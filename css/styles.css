@@ -1,0 +1,79 @@
+/* ==========================================================
+// Base Styles
+// ======================================================= */
+
+* {
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label,
+input,
+form,
+fieldset,
+div {
+  margin: 0;
+}
+
+
+
+/* ==========================================================
+// Font Styles
+// ======================================================= */
+
+
+
+
+/* ==========================================================
+// Layout Styles
+// ======================================================= */
+
+
+/* ----- Header ----- */
+
+.header {
+  width: 100%;
+  height: 100vh;
+}
+
+.title {
+  display: none;
+}
+
+.logo img {
+  position: absolute;
+  vertical-align: middle;
+  top: 50%;
+  left: 50%;
+  max-width: 200px;
+  max-height: 200px;
+  margin: -100px 0 0 -100px;
+  z-index: 100;
+}
+
+.carousel,
+.carousel-inner,
+.item {
+  height: 100%;
+  width: 100%;
+}
+
+.item img {
+  object-fit: cover;
+  object-position: right bottom;
+}
+
+
+
+/* ----- Contact ----- */
+
+.contact {
+  width: 100%;
+  height: 100vh;
+}
