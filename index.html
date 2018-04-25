@@ -8,6 +8,7 @@
   <title>Rosemary & Miint</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 <!--
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -54,38 +55,48 @@
     </div>
   </div>
   
-  <div>
-    
+  <div class="gallery">
+    <div class="gallery-inner">
+      <p>Click <a href="#">HERE</a> for more images of my work and follow me on Instagram!</p>
+      <a href="#"><i class="fab fa-instagram fa-5x"></i></a>
+    </div>
   </div>
    
   <div class="contact">
-    <form class="contact-form">
-      <fieldset>
-        <div class="name">
-          <label for="name">Name</label>
-          <input type="text" name="name" id="name">
-        </div>
+    <div class="contact-inner">
+      <p>If you need baking done or just feel like saying hello, I'd love to hear from you!</p>
 
-        <div class="email">
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email">
-        </div>
+      <form class="contact-form">
+        <fieldset>
+          <div class="name">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="John Doe">
+          </div>
 
-        <div class="notes">
-          <label for="notes">Notes</label>
-          <textarea name="notes" id="notes" cols="30" rows="10"></textarea>
-        </div>
+          <div class="email">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="example@email.com">
+          </div>
 
-        <div class="send">
-          <label>Send</label>
-          <input type="submit" value="Send">
-        </div>
-      </fieldset>
-    </form>
+          <div class="message">
+            <label for="message">Notes</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          </div>
+
+          <div class="send">
+            <label>Send</label>
+            <input class="button" type="submit" value="Send">
+          </div>
+        </fieldset>
+      </form>
+    </div>
   </div>
 
   <div class="footer">
-    <h1>Copyright Tag and Social Media Links</h1>
+    <div class="footer-inner">
+      <p>&copy; Rosemary & Miint 2018</p>
+      <p>Site by Joram Livengood</p>
+    </div>
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

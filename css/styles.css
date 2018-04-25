@@ -70,28 +70,48 @@ div {
 }
 
 .one {
-  background: url(../images/mobile/glutenfreepie2web.gif) center center no-repeat;
+  background: url(../images/mobile/glutenfreepie2web.jpg) center center no-repeat;
   background-size: cover;
 }
 
 .two {
-  background: url(../images/mobile/glutenfreepie1web.gif) center center no-repeat;
+  background: url(../images/mobile/glutenfreepie1web.jpg) center center no-repeat;
   background-size: cover;
 }
 
 .three {
-  background: url(../images/mobile/bloodorangebundt1web.gif) center center no-repeat;
+  background: url(../images/mobile/bloodorangebundt1web.jpg) center center no-repeat;
   background-size: cover;
 }
 
 .four {
-  background: url(../images/mobile/bloodorangecocktailweb.gif) center center no-repeat;
+  background: url(../images/mobile/bloodorangecocktailweb.jpg) center center no-repeat;
   background-size: cover;
 }
 
 .five {
-  background: url(../images/mobile/donuts1web.gif) center center no-repeat;
+  background: url(../images/mobile/donuts1web.jpg) center center no-repeat;
   background-size: cover;
+}
+
+
+
+/* ----- Gallery ----- */
+
+.gallery {
+  width: 100%;
+  text-align: center;
+  background-color: floralwhite;
+}
+
+.gallery-inner {
+  width: 80%;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+
+i {
+  margin-top: 15px;
 }
 
 
@@ -100,18 +120,68 @@ div {
 
 .contact {
   width: 100%;
-  height: 100vh;
+  background-color: #c3dbd0;
+}
+
+.contact-inner {
+  width: 80%;
+  margin: 0 auto;
+  padding: 75px 0;
 }
 
 .contact-form {
-  width: 90%;
-  margin: 0 auto;
-  padding-top: 249px;
+  margin-top: 20px;
 }
 
-.name,
-.email,
-.notes,
-.send {
+.contact-form input {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin: 5px 0;
+  width: 100%;
+  padding: 10px;
+}
+
+.contact-form textarea {
+  width: 100%;
+  margin: 5px 0;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+label {
   display: block;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.send label {
+  display: none;
+}
+
+.send {
+  text-align: center;
+}
+
+input.button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: floralwhite;
+}
+
+
+
+/* ----- Footer ----- */
+
+.footer {
+  width: 100%;
+  background-color: floralwhite;
+}
+
+.footer-inner {
+  width: 90%;
+  margin: 0 auto;
+  padding: 15px 0;
 }
