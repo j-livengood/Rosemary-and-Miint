@@ -66,13 +66,17 @@ div {
 
 .item img {
   object-fit: cover;
-  object-position: right bottom;
 }
 
+/*
 .one {
-  object-fit: cover;
   background: url(../images/mobile/glutenfreepie2web.jpg) center center no-repeat;
   background-size: cover;
+}
+*/
+
+#one-desktop {
+  display: none;
 }
 
 .two {
@@ -185,4 +189,18 @@ input.button {
   width: 90%;
   margin: 0 auto;
   padding: 15px 0;
+}
+
+
+
+/* ----- Media Queries ----- */
+
+@media (min-width: 768px) {
+  #one-mobile {
+    display: none;
+  }
+  
+  #one-desktop {
+    display: block;
+  }
 }
