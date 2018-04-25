@@ -70,6 +70,7 @@ div {
 }
 
 .one {
+  object-fit: cover;
   background: url(../images/mobile/glutenfreepie2web.jpg) center center no-repeat;
   background-size: cover;
 }
